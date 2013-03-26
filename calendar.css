@@ -1,0 +1,122 @@
+/* 
+    Document   : calendar.css
+    Created on : 23/03/2010, 20:11:24
+    Author     : darthjee
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+table.pal-cal
+{
+  border: 1px solid black;
+  margin: 10px
+}
+
+table.pal-cal tr td
+{
+  width: 200px;
+  height: 115px;
+  border: 1px solid black
+}
+
+table.pal-cal tr td.pal-dayname
+{
+  height:25px
+}
+
+table.pal-cal tr td.pal-month
+{
+  height:25px
+}
+
+.pal-event-black
+{
+  color:black;
+}
+
+.pal-event-red
+{
+  color:red;
+}
+
+.pal-event-green
+{
+  color:green;
+}
+
+.pal-event-yellow
+{
+  color:#ee9900;
+}
+
+.pal-event-blue
+{
+  color:blue;
+}
+
+.pal-event-magenta
+{
+  color:fuchsia;
+}
+
+.pal-event-cyan
+{
+  color:aqua;
+}
+
+.pal-event-white
+{
+  color:white;
+}
+
+.pal-cal tr td span
+{
+  font-size: 8pt;
+}
+
+ul.sidelist
+{
+  clear:left;
+  display:block;
+}
+
+ul.sidelist li
+{
+  float:left;
+  list-style:none;
+  margin:0 5px;
+}
+
+div#block
+{
+  clear:left;
+}
+
+label.required.alert
+{
+  color:red;
+  font-weight:bold;
+}
+
+div#calendar
+{
+  margin: 0px 0px 0px 150px;
+}
+
+div#sidebar
+{
+  margin:0px 0px 0px 0px;
+  float:left;
+  width:150px;
+}
+
+ul#menu-list, ul#menu-list ul
+{
+  padding-left:15px;
+  padding-bottom:10px;
+}
